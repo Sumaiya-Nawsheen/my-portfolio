@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Card, CardGroup, Modal } from 'react-bootstrap';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 

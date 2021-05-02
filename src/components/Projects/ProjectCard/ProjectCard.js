@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Button, Card, CardGroup } from 'react-bootstrap';
 import ProjectsDetail from '../ProjectsDetail/ProjectsDetail';
 
 const ProjectCard = ({detail}) => {
