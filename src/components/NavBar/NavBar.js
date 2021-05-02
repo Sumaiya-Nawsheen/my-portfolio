@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Nav, Navbar } from 'react-bootstrap';
 import resume from '../../resume/Resume_Sumaiya Nawsheen_WebDeveloper(1st Update).pdf'
-import { HashLink as Link } from 'react-router-hash-link';
+
 
 const NavBar = () => {
     return (
