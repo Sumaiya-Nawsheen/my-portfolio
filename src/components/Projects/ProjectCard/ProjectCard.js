@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button, Card, Col } from 'react-bootstrap';
 import ProjectsDetail from '../ProjectsDetail/ProjectsDetail';
 
 const ProjectCard = ({detail}) => {
@@ -12,17 +13,23 @@ const ProjectCard = ({detail}) => {
     }
     return (
         <div>
-       <div className="col-md-7 mb-5">
-            <div className="card p-3">
-                <div className="card-body text-center">
-                    <h5 className="card-title text-brand">{detail.name}</h5>
-                    <h6>{detail.features}</h6>
-                    <p> SPACES AVAILABLE</p>
-                    <button onClick={openModal} className="btn btn-brand text-uppercase">Book Appointment</button>
-                    <ProjectsDetail modalIsOpen={modalIsOpen} pDetails={detail} closeModal={closeModal}></ProjectsDetail>
-                    </div>
-            </div>
-        </div>
+
+
+    <Col xs={6}>
+    <Card style={{ width: '18rem' }} className="text-center">
+    <Card.Header>{detail.name}</Card.Header>
+    <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Body>
+  
+    <Card.Text>
+    {detail.features}
+    </Card.Text>
+  </Card.Body>
+  <Card.Footer><Button onClick={openModal} variant="primary">Go somewhere</Button></Card.Footer>
+  <ProjectsDetail modalIsOpen={modalIsOpen} pDetails={detail} closeModal={closeModal}></ProjectsDetail>
+</Card>
+    </Col>
+  
         </div>
     );
 };

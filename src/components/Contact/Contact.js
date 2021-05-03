@@ -1,12 +1,13 @@
 import React from 'react';
 import emailjs  from 'emailjs-com';
-import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 
 
 const Contact = () => {
 
 
-    function sendEmail(e) {
+// auto email send
+  function sendEmail(e) {
         e.preventDefault();
     
         emailjs.sendForm('service_2tgud3r', 'template_gyriyqa', e.target, 'user_t9BblcFz77JW8cY0AGTZW')
@@ -19,35 +20,41 @@ const Contact = () => {
       }
 
    
-
+// main return of the function
     return (
-        <div id="contact" className ='mt-3 ' style={{height:'500px', textAlign:'center', border:'1px solid grey'}}>
-        <h1 className="underline-small">Contact Me</h1>
-       
-
-  
-
-  <Container>
+        <div id="contact" className ='mt-3 ' style={{height:'450px', textAlign:'center', border:'1px solid grey', backgroundColor:'#6666FF'}}>
+        <div style={{}}>
+            <h1 className="underline-small" style={{marginTop:'15px'}}>Contact Me</h1>
+            </div>
+            <h3>Have a question or want to work together?</h3>
+  <Container className="mt-5" style={{}}>
   <Row>
     <Col md={{ span: 6, offset: 3 }}> 
-  <Jumbotron>
-  <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      <label>Name</label>
-      <input type="text" name="name" /><br/>
-      <label>Email</label>
-      <input type="email" name="email" /><br/>
-      <label>Message</label>
-      <textarea name="message" /><br/>
-      <input type="submit" value="Send" />
-    </form>
-</Jumbotron>
+  
+  <Form className="contact-form" onSubmit={sendEmail}>
+  <Form.Group  controlId="FormInputName">
+          <Form.Control
+            required
+            type="text"
+            name="name"
+            placeholder="Your Name"
+          />
+        </Form.Group>
+  <Form.Group controlId="formBasicEmail">
+    <Form.Control required type="email" placeholder="Email Address"  name="email"/>
+  </Form.Group>
+  <Form.Group>
+  <Form.Control type="text" placeholder="Message" as='textarea' name="message"/>
+</Form.Group>
+  <Button variant="danger" type="submit" value="Send" style={{borderRadius:'20px'}}>
+    Submit
+  </Button>
+</Form>
+
 </Col>
   </Row>
 </Container>
   
- 
-
     </div> 
     );
 };
