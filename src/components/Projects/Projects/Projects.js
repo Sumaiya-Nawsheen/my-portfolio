@@ -1,32 +1,62 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import ProjectCard from '../ProjectCard/ProjectCard';
-
+// images
+import spicy1 from '../../../images/spicy 1.jpg';
+import spicy2 from '../../../images/spicy2.jpg';
+import spicy3 from '../../../images/spicy3.jpg';
+import spicy4 from '../../../images/spicy4.jpg';
+import spicy5 from '../../../images/spicy5.jpg';
 
 const projectsDetail = [
 {
 name:'Spicy Kitchen',
-features: 'Online Restaurant Management System'
+features: 'Online Restaurant Management System',
+img1: `${spicy1}`,
+img2: `${spicy2}`,
+img3: `${spicy3}`,
+img4: `${spicy4}`,
+img5: `${spicy5}`,
 
 },
 {
   name: 'Dhaka Ridz',
-  features: 'Online Transport Booking System'
+  features: 'Online Transport Booking System',
+  img1: `${spicy1}`,
+img2: `${spicy2}`,
+img3: `${spicy3}`,
+img4: `${spicy4}`,
+img5: `${spicy5}`,
 },
-// {
-//   name: 'Destination Anywhere',
-//   features: 'Online Travel Agency'
-// }
+{
+  name: 'Destination Anywhere',
+  features: 'Online Travel Agency',
+  img1: `${spicy1}`,
+img2: `${spicy2}`,
+img3: `${spicy3}`,
+img4: `${spicy4}`,
+img5: `${spicy5}`,
+},
+{
+  name: 'Sportsaholic',
+  features: 'Popular Sports Teams',
+  img1: `${spicy1}`,
+img2: `${spicy2}`,
+img3: `${spicy3}`,
+img4: `${spicy4}`,
+img5: `${spicy5}`,
+}
 ]
 
 
 const Projects = () => {
 
     return (
-        <div id="projects" className ='mt-3' style={{height:'500px', textAlign:'center', border:'1px solid grey'}}>
-        <h1 className="underline-small">Projects</h1>
+        <div id="projects" className ='mt-3' style={{height:'5%', textAlign:'center', border:'1px solid grey', marginBottom:'5px'}}>
+        <h1 className="underline-small" style={{marginTop:'15px',marginBottom:'50px'}}>Projects</h1>
 
         <div>
+      
         <Container>
   <Row>
         {

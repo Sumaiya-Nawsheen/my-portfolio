@@ -18,7 +18,7 @@ const ProjectCard = ({detail}) => {
     <Col xs={6}>
     <Card style={{ width: '18rem' }} className="text-center">
     <Card.Header>{detail.name}</Card.Header>
-    <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img variant="top" src={detail.img1} />
     <Card.Body>
   
     <Card.Text>
