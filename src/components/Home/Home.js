@@ -34,7 +34,7 @@ const Home = () => {
 
 </div>
 <NavBar/>
-<About id='about'/>
+<About/>
 <Projects/>
 <Blog/>
 <Contact/>

@@ -9,7 +9,8 @@ const customStyles = {
     right                 : 'auto',
     bottom                : 'auto',
     marginRight           : '-50%',
-    transform             : 'translate(-50%, -50%)'
+    transform             : 'translate(-50%, -50%)',
+    background            :'rgb(230, 247, 255)'
   }
 }; 
 Modal.setAppElement('#root')
@@ -99,18 +100,14 @@ const ProjectsDetail = ({ modalIsOpen, closeModal, pDetails}) => {
 
   </Carousel>
 
-    <Card.Body style={{background:'red'}}>
-      <Card.Title>Card title</Card.Title>
+    <Card.Body >
+      <Card.Title>{pDetails.features}</Card.Title>
       <Card.Text>
         This is a wider card with supporting text below as a natural lead-in to
         additional content. This card has even longer content than the first to
         show that equal height action.
       </Card.Text>
     </Card.Body>
-   
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
   </Card>
           </Container>
   

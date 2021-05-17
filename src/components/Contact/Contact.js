@@ -22,7 +22,7 @@ const Contact = () => {
    
 // main return of the function
     return (
-        <div id="contact" className ='mt-3 ' style={{height:'450px', textAlign:'center', border:'1px solid grey', backgroundColor:'#6666FF'}}>
+        <div id="contact"  style={{height:'450px', textAlign:'center', marginBottom:'5px',backgroundColor:'	rgb(218, 204, 255)'}}>
         <div style={{}}>
             <h1 className="underline-small" style={{marginTop:'15px'}}>Contact Me</h1>
             </div>

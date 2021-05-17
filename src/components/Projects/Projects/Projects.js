@@ -52,7 +52,7 @@ img5: `${spicy5}`,
 const Projects = () => {
 
     return (
-        <div id="projects" className ='mt-3' style={{height:'5%', textAlign:'center', border:'1px solid grey', marginBottom:'5px'}}>
+        <div id="projects"  style={{height:'5%', textAlign:'center', marginBottom:'5px', background:'rgba(229, 229, 255, 0.5)'}}>
         <h1 className="underline-small" style={{marginTop:'15px',marginBottom:'50px'}}>Projects</h1>
 
         <div>

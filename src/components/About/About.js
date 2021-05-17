@@ -9,7 +9,7 @@ import dynamic from '../../images/dynamic.jpg';
 
 const About = () => {
     return (
-        <div id="about" className ='mt-4' style={{height:'16%', textAlign:'center', border:'1px solid grey'}}>
+        <div id="about"  style={{height:'16%', textAlign:'center',marginBottom:'5px', background:'rgb(230, 247, 255)'}}>
             <div style={{marginBottom:'5px'}}>
             <h1 className="underline-small" style={{marginTop:'15px',marginBottom:'50px'}}>About</h1>
             </div>
@@ -61,8 +61,8 @@ const About = () => {
             <Container style={{height:'8%'}}>
   <Row xs={1} md={2}>
     <Col><img src={ProfilePic} alt='' style={{width:'70%',height:'300px',borderRadius:'50%', marginTop:'5px'}}/>
-    <h3>Who's this guy?</h3>
-<p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
+    <h3>Who am I?</h3>
+<p>I'm a Front-End Developer from Bangladesh.
 I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
 Let's make something special.</p>
     </Col>
@@ -73,13 +73,13 @@ Let's make something special.</p>
         <br/>
 
         <h3>HTML/CSS</h3>
-        <div class="line line1">95%</div>
+        <div class="line line1"  style={{background:'rgb(88, 54, 73)'}}>95%</div>
         <h3>JavaScript</h3>
-        <div class="line line2">80%</div>
+        <div class="line line2" style={{background:'rgb(88, 54, 73)'}}>80%</div>
         <h3>Bootstrap</h3>
-        <div class="line line3">60%</div>
+        <div class="line line3" style={{background:'rgb(88, 54, 73)'}}>60%</div>
         <h3>Wordpress</h3>
-        <div class="line line4">15%</div>
+        <div class="line line4" style={{background:'rgb(88, 54, 73)'}}>15%</div>
     </div>
     </Col>
   </Row>

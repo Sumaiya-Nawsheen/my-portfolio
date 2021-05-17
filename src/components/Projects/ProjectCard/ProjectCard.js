@@ -25,7 +25,7 @@ const ProjectCard = ({detail}) => {
     {detail.features}
     </Card.Text>
   </Card.Body>
-  <Card.Footer><Button onClick={openModal} variant="primary">Go somewhere</Button></Card.Footer>
+  <Card.Footer><Button onClick={openModal} variant="primary">View Detail</Button></Card.Footer>
   <ProjectsDetail modalIsOpen={modalIsOpen} pDetails={detail} closeModal={closeModal}></ProjectsDetail>
 </Card>
     </Col>
