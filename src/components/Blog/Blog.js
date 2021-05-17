@@ -23,7 +23,7 @@ const Blog = () => {
     }
 
     return (
-        <div id="blog"  style={{height:'500px', textAlign:'center',background:'rgb(229, 229, 255)'}}>
+        <div id="blog"  style={{height:'500px', textAlign:'center',marginBottom:'5px',background:'rgb(229, 229, 255)'}}>
         <h1 className="underline-small">Blogs</h1>
         <div className ='Blogs'>
         {displayBlogs()}
