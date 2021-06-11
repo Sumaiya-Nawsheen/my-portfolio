@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Nav, Navbar } from 'react-bootstrap';
-import resume from '../../resume/Resume_Sumaiya Nawsheen_WebDeveloper(1st Update) .pdf'
+import resume from '../../resume/Resume_Sumaiya Nawsheen_WebDeveloper.pdf'
 
 
 const NavBar = () => {

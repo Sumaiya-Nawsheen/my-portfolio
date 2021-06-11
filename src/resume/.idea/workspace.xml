@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="630ec5fa-cd72-45a9-a162-1a74316f8a72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/../components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/sumaiya_Nawsheen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resume_Sumaiya Nawsheen_WebDeveloper(1st Update) .pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1toXPHi5q0aV5FCSSaAKEAvBAPB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="630ec5fa-cd72-45a9-a162-1a74316f8a72" name="Default Changelist" comment="" />
+      <created>1623436393650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623436393650</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardDeck, Col, Container, Row } from 'react-bootstrap';
-import ProfilePic from '../../images/sumaiya_Nawsheen.jpg';
+import ProfilePic from '../../images/sumaiya_Nawsheen.png';
 import './About.css'
 import fast from '../../images/fast.jpg';
 import responsive from '../../images/responsive.jpg';
@@ -60,7 +60,7 @@ const About = () => {
 
             <Container style={{height:'8%'}}>
   <Row xs={1} md={2}>
-    <Col><img src={ProfilePic} alt='' style={{width:'70%',height:'300px',borderRadius:'50%', marginTop:'5px'}}/>
+    <Col><img src={ProfilePic} alt='' style={{width:'75%',height:'325px', marginTop:'50px'}}/>
     <h3>Who am I?</h3>
 <p>I'm a Front-End Developer from Bangladesh.
 I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
